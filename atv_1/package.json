@@ -1,0 +1,16 @@
+{
+  "name": "atv_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "blob": "^0.1.0",
+    "file-saver": "^2.0.5"
+  }
+}
