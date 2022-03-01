@@ -1,0 +1,28 @@
+h1{
+    background-color: #bdbc96;
+    color: beige;
+    text-align: center;
+}
+
+body{
+    background-color: #faf7f2;
+    font-size: 120%;
+}
+
+h2{color: #6d3c29;}
+
+p { text-align: justify;
+    font-family: "Times New Roman", serif;
+}
+    
+
+h1, h2{
+    font-family: "Arial", sans-serif;
+}
+
+
+     
+
+
+
+
