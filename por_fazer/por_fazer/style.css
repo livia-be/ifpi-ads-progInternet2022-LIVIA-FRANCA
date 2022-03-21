@@ -1,27 +1,156 @@
-h1{
-    background-color: white;
-    color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+.box{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgb(255, 255, 255);
+     padding: 100px;
+     height: 480px;
+     width: 320px;
+     color: black;
+    }
+ html, body{
+          margin: 1;
+          padding: 1;
+          background-color: gray;
     
-}
+          }
+
 
  img {
-    width: 160px;
-    height: 160%;
-    border-radius: 50%;
-    padding: 5px;
-}
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       position: absolute;
+       top: 60px;
+       left: 15px;
+   
+     }
 
- p{
+ header {
+         position: absolute;
+         top: 1px;
+         left: 15px;
+         font-family: 'Karla', sans-serif;
+    
+        }
+
+h4{
     position: absolute;
-    top: 20px;
-    left: 100px;
-    padding-top: 50px;
-    padding-left: 100px;
+    top: 150px;
+    left: 12px;
+}
+h3{
+    position: relative;
+    top: 26px;
+    left: 230px;
+    word-spacing: 50px;
     
 }
 
 p{
-    font-size: 160%;
+    text-align: center;
+    position: relative;
+    top: 28px;
+    left: 200px;
+    word-spacing: 4px;
+    text-size-adjust: 25px;
 }
+.bio{
+    position: relative;
+    top: 17px;
+    right: 260px ;
+    text-align: left;
+    }
+    .imagemA img{
+        position: absolute;
+        width: 165px;
+        height: 165px;
+        top: 430px;
+        left: 5px;
+        border-radius: 0%;
+    }
+    .imagemB img{
+        position: absolute;
+        width: 165px;
+        height: 165px;
+        top: 430px;
+        left: 177px;
+        border-radius: 0px;
+    }
+    .imagemC img{
+        position: absolute;
+        width: 165px;
+        height: 165px;
+        top: 430px;
+        left: 350px;
+        border-radius: 0%;
+    }
+    .btn{
+        padding: 3px, 8px;
+        width: 350px;
+        height: 30px;
+        color: black;
+        background: white;
+        border: 1px solid #555;
+        border-radius: 3px;
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+        top: 120px;
+        text-align: center;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .btn:hover{
+        background: rgb(233, 233, 233);
+    }
+
+    .amigos{
+        padding: 3px, 8px;
+        width: 30px;
+        height: 30px;
+        color: black;
+        background: white;
+        border: 1px solid #555;
+        border-radius: 3px;
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+        top: 88px;
+        left: 355px;
+        text-align: center;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .amigos:hover{
+        background:rgb(233, 233, 233);
+
+    }
+
+    .destaque{
+        padding-top: 10px;
+
+        width: 70px;
+        height: 70px;
+        color: black;
+        background: white;
+        border: 1px solid #555;
+        border-radius: 50%;
+        user-select: none;
+        cursor: pointer;
+        position: relative;
+        top: 120px;
+        right: 80px;
+        text-align: center;
+        font-size: 55px; 
+    }
+   
+    
+
+
 
 

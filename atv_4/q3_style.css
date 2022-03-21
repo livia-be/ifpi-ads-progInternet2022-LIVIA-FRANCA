@@ -1,0 +1,60 @@
+.card-title{
+    
+    font-size: 70px;
+    margin-left: 15px;
+    margin-top: 30px;
+    
+}
+.card-text{
+    margin-left: 15px;
+}
+
+
+
+.card{
+        background-color: lightgray;
+        width: 990px;
+        height: 250px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+   
+
+    .cardA{
+        margin-top: 10px;
+    }
+
+    .cardB{
+        margin-top: 10px;
+    }
+
+    .cardC{
+        margin-top: 10px;
+    }
+    .cardD{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .cardE{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .cardF{
+        margin-top: 20px;
+        margin-top: 10px;
+    }
+    footer p{
+        border-top: 1px solid gray;
+        padding-top: 10px;
+      }
+      .navbar-brand{
+          padding-left: 10px;
+      }
+
+      .cardL{
+          
+      }
+     .card-header{
+         background-color: rgb(68, 77, 158);
+     }

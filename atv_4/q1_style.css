@@ -1,0 +1,48 @@
+header{
+    background-color: #bbce97;
+    padding: 20px;
+    padding-left: 1px;
+    padding-top: 1px;
+    
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    background-color: #bbce97;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(85, 83, 83);
+}
+aside {
+    background-color:#d9e9bc ;
+    
+}
+ section{
+     background-color: #f6fdeb;
+ }
+
+aside h4{
+    margin: 10px;
+}
+
+nav{
+    background-color: #d9e9bc;
+    margin-left: 2px;
+}
+
+nav p{
+   color: #649e52;
+   margin: 2px;
+   margin-left: 3px;
+
+   
+}
+
+nav h4{
+    margin-left: 3px;
+}
+
+

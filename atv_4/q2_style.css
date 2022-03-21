@@ -1,0 +1,17 @@
+.card-title{
+ font-size: 70px;
+}
+.card{
+  padding-left: 100px;
+  background-color: lightgrey;
+}
+.row{
+  padding-left: 60px;
+  margin: 40px;
+ 
+}
+
+footer p{
+  border-top: 1px solid gray;
+  padding-top: 6px;
+}
