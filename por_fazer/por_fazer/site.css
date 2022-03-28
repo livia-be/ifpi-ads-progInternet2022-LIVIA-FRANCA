@@ -26,9 +26,21 @@ p { text-align: justify;
 h1, h2{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
+
+h2{
+    border-left: 2px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 1px;
+}
+
 blockquote {
 
     background-color: #d9e5e3;
+    padding: 20px;
+    margin: 0px;
+    border: 10px solid #c2ccca;
+    width: 250px;
+    box-sizing: border-box;
 
 }
 
