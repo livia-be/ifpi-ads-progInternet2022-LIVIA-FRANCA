@@ -1,0 +1,196 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.header a{
+    text-decoration: none;
+    color: #fff3eb;
+    margin-left: 5px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.header{
+    background-color: #3c6054;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+
+
+
+
+.principal{
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 850px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.principal > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.capa{
+    display: flex;
+    background-image: linear-gradient(to left, #d5ba8f, rgb(157, 189, 83));
+    max-width: 830px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+}
+.nome_prod{
+    font-weight: bold;
+    margin: 5px;
+}
+
+.descricao{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.botao_comprar{
+    
+    width: 250px;
+    height: 50px;
+    background-color: #828d89;
+    border: none;
+    margin: 5px;
+    border-radius: 5%;
+    color: #fff3eb;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.botao_comprar:hover{
+    background-color:#8ba199;
+}
+
+.valor{
+    font-weight: bold;
+    margin: 5px;
+    
+}
+
+button{
+    background-color: #333135;
+    width: 100px;
+    padding: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #78747c;
+}
+
+.bar_srch{
+    padding: 13px;
+    border-radius: 5%;
+}
+
+select{
+    width: 100px;
+    padding: 15px;
+    color: white;
+    background-color: #333135;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+   max-width: 830px;
+   min-width: 250px;
+   margin: 0 auto;
+   justify-content: space-between;
+}
+
+.footer{
+    background-color: #a7b2ae;
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.aside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.infos{
+    margin: 10px;
+}
+
+.contatos{
+    margin: 10px;
+}
+
+.footer > p{
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 400px){
+  
+    form{
+        width: 100%;
+    }
+   .principal{
+        flex-direction: column;
+        
+    }
+
+        .bar_srch{
+            width: 100%;
+            margin:0 ;
+            
+        }
+
+        button{
+            width: 100%;
+            margin:0 ;
+        }
+}
