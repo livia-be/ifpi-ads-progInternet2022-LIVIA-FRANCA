@@ -74,7 +74,7 @@ p {
     justify-content: space-evenly;
 }
 
-.header-dois {
+.side-bar-second {
     background-color: #121212;
 }
 
@@ -86,7 +86,7 @@ section {
     position: fixed;
 }
 
-.header-dois {
+.side-bar-second {
     display: none;
 }
 
@@ -191,7 +191,7 @@ section {
 
 @media (max-width: 1000px) {
 
-    .header-dois {
+    .side-bar-second {
         display: flex;
     }
 
@@ -199,7 +199,7 @@ section {
         display: flex;
     }
 
-    .header-edit {
+    .side-bar {
         display: none;
     }
 
@@ -215,7 +215,7 @@ section {
         max-width: 100%;
     }
 
-    .header-dois {
+    .side-bar-second {
         display: none;
     }
 
@@ -227,7 +227,7 @@ section {
         display: flex !important;
     }
 
-    .header-edit {
+    .side-bar {
         display: none;
     }
 
